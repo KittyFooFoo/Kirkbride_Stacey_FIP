@@ -1,6 +1,6 @@
 /* 1. ---General Styles--- */
 
- body {
+body {
     margin: 0px;
     padding: 0px;
     font-family: 'Sanchez', 'Times New Roman', serif;
@@ -21,6 +21,7 @@
  }
  
  a {
+    color: white;
     text-decoration: none;
     transition: all .5s ease-in-out;
  }
@@ -34,3 +35,60 @@
  section h2 {
     padding-left: 15px;
   }
+
+
+ #contact-hero-form form {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ #contact-hero-form input, textarea {
+    padding: 22px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font: inherit;
+    
+ }
+ 
+ #contact-hero-form textarea {
+    height: 250px;
+ }
+ 
+ 
+
+  #contact-hero-form form {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ #contact-hero-form input, textarea {
+    padding: 22px;
+    border: 2px solid #590600;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font: inherit;
+ }
+ 
+ #contact-hero-form textarea {
+    height: 250px;
+ }
+ 
+ 
+ 
+ #contact-hero-form input[type="submit"] {
+    padding: 12px 28px;
+    background: #b22104;
+    color: #fff;
+    border: none;
+    transition: all 200ms ease-in;
+    width: 100px;
+    align-self: center;
+ }
+ 
+ #contact-hero-form input[type="submit"]:hover {
+    background-color: #590600;
+    width: 100px;
+    border-radius: 0;
+ }
